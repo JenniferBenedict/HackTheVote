@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:text="Polls have closed! Here are the results:"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:id="@+id/textView6"
+                android:textSize="30sp" />
+
+            <TextView
+                android:text="Presidential Race"
+                android:layout_width="match_parent"
+                android:background="@color/lightblue"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10" />
+
+            <TextView
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:text="Vice Presidential Race:"
+                android:background="@color/lightblue"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11" />
+
+            <TextView
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView8"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:text="Education Funding Quesiton"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:background="@color/lightblue"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:id="@+id/textView12" />
+
+            <TextView
+                android:text="TextView"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView9"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
